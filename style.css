@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(218, 218, 218);
+  font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+.wrapper {
+  background-color: rgb(202, 196, 199);
+  margin: 0 auto;
+  max-width: 1024px;
+  min-width: 680px;
+}
+
+.full-name {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main {
+  line-height: 2;
+  margin: 0 20px;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5%;
+}
+
+.photo-portfolio {
+  width: 30%;
+  border-radius: 5%;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 10px 0 10px 30px;
+  color: rgb(82, 73, 73);
+}
+
+.text-bold {
+  font-weight: 900;
+}
+
+.experience-list {
+  list-style-type: square;
+  margin-left: 10px;
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: brown;
+}
+
+a:hover {
+  color: rgb(12, 137, 187);
+}
+
+.footer {
+  height: 50px;
+}
